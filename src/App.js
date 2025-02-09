@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { motion, AnimatePresence } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -13,6 +14,7 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <AnimatePresence mode="wait">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -20,6 +22,7 @@ function App() {
         <Route path="/education" element={<Education />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      </AnimatePresence>
       <Footer />
     </Router>
   );

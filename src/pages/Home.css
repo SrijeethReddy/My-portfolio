@@ -1,0 +1,20 @@
+.home {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home p {
+    font-size: 1.5rem;
+  }
