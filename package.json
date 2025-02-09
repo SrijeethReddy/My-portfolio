@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/SrijeethReddy/My-portfolio",
+  "homepage": "https://srijeethreddy.github.io/My-portfolio/",
   "dependencies": {
     "cra-template": "1.2.0",
     "framer-motion": "^12.4.1",
@@ -41,6 +41,7 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
-    "@testing-library/user-event": "^14.6.1"
+    "@testing-library/user-event": "^14.6.1",
+    "gh-pages": "^6.3.0"
   }
 }
