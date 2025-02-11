@@ -181,17 +181,20 @@ const Contact = () => {
       </div>
 
       {/* Map Placeholder */}
-      <div className="map-container">
-        <h2>My Location</h2>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214587.6001375715!2d-96.87178999999999!3d32.820586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20TX%2C%20USA!5e0!3m2!1sen!2sin!4v1712345678901"
-          width="100%"
-          height="100%"
-          style={{ border: 0 }}
-          allowFullScreen
-          loading="lazy"
-        />
-      </div>
+      {/* Map Placeholder */}
+<div className="map-container">
+  <h2>My Location</h2>
+  <iframe
+    title="Google Maps Location"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214587.6001375715!2d-96.87178999999999!3d32.820586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20TX%2C%20USA!5e0!3m2!1sen!2sin!4v1712345678901"
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    allowFullScreen
+    loading="lazy"
+  />
+</div>
+
     </motion.div>
   );
 };
