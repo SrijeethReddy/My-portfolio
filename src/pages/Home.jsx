@@ -50,8 +50,8 @@ const Home = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5, duration: 1 }}
         >
-          <a href="/#/about" className="cta-button">Learn More About Me</a>
-          <a href="/#/contact" className="cta-button">Get in Touch</a>
+          <a href="/about" className="cta-button">Learn More About Me</a>
+          <a href="/contact" className="cta-button">Get in Touch</a>
         </motion.div>
       </div>
     </motion.div>
