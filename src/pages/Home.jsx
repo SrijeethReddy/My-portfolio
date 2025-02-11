@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom'; 
 import { motion } from 'framer-motion';
 import './Home.css';
 
@@ -44,15 +45,17 @@ const Home = () => {
         >
           Hi, I'm <span className="highlight">Sai Srijeeth Reddy K</span>. I'm a seasoned full-stack developer with expertise in <span className="highlight">React</span>, <span className="highlight">Node.js</span>, and <span className="highlight">MongoDB</span>.
         </motion.p>
+        
         <motion.div
-          className="cta-buttons"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.5, duration: 1 }}
-        >
-          <a href="/#/about" className="cta-button">Learn More About Me</a>
-          <a href="/#/contact" className="cta-button">Get in Touch</a>
-        </motion.div>
+         className="cta-buttons"
+         initial={{ opacity: 0 }}
+         animate={{ opacity: 1 }}
+         transition={{ delay: 1.5, duration: 1 }}
+>
+        <Link to="/about" className="cta-button">Learn More About Me</Link>
+        <Link to="/contact" className="cta-button">Get in Touch</Link>
+       </motion.div>
+        
       </div>
     </motion.div>
   );
